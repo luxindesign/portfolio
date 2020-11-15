@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 130%;
+    color: #F5F5F5;
+    background-color: #131313;
+}
+a:link, a:visited {
+  color: #EDEDED;
+   text-decoration: none;
+}
+a:hover, a:active {
+   text-decoration: none;
+   letter-spacing: 2px;
+   transition: 0.8s;
+}
+strong{
+	color: #0e0f0fB3;
+}
+strong:hover{
+	letter-spacing: 1px;
+	transition: 0.8s;
+}
+header {
+    text-transform: uppercase;
+    font-size: 80%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #0e0f0f;
+    z-index: 1;
+}
+header:hover {
+	opacity: 90%;
+	transition: 0.8s;
+}
+#menu{
+	padding-inline-start: 0px;
+}
+#menu li{
+    vertical-align: middle;
+    display: inline-block;
+}
+#work{
+	text-align: right;
+	width: 33.33%;
+}
+#home{
+	width: 33.34%;
+	text-align: center;
+}
+#contact{
+	width: 33.33%;
+}
+#insta p , #linkedin p , #behance p {
+	font-size: 80%;
+	letter-spacing: 2px;
+	padding: calc(10vh - 12px) 0px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+#insta p:hover , #linkedin p:hover , #behance p:hover {
+	background-color: #151515;
+}
+#insta{
+	margin-top: 15vh;
+}
+#insta  , #linkedin  , #behance {
+	width: 100%;
+	text-align: center;
+}
+#rs a:link, #rs a:visited {
+  	text-decoration: none;
+}
+span{
+	font-size: 15px;
+}
+footer{
+	background-color: #0e0f0f;
+	width: 100%;
+	height: 48px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	color: #A8A8A8;
+	display: inline-block;
+	font-size: 36%;
+	padding-top: 8px;
+}
+footer:hover{
+	opacity: 90%;
+	transition: 0.8s;
+}
+
+
+
+
+/*background-image: url("");*/
